@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <section class="central-box">
+      <div>
+        <header class="header">Jogo da Velha</header>
+        <hr class="line" color="766161" />
+      </div>
+      <article class="start-page">
+        <button class="button_start" type="button">Start the Game!</button>
+      </article>
+      <div class="player-page" style="display: none">
+        <button class="btn-player-1" type="button">1 Player</button>
+        <button class="btn-player-2" type="button">2 Players</button>
+      </div>
+      <div class="velha-page" style="display: none">
+        <div class="score-players">
+          <div class="score-x">
+            <div>X</div>
+          </div>
+          <div class="score-o">
+            <div>O</div>
+          </div>
+          <div class="turn-x">turn</div>
+          <div class="turn-o">turn</div>
+        </div>
+        <div class="board">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="back-move">
+          <button class="btn-back-move">Back Move</button>
+        </div>
+      </div>
+      <div class="final-page" style="display: none">
+        <label class="result"></label> <br />
+        <button class="btns-final-again" type="button" style="display: none">Play again</button><br />
+        <button class="btns-final-restart" type="button">Restart</button>
+      </div>
+      <div class="footer_box">
+        <footer class="footer">Developed by Stephany</footer>
+      </div>
+    </section>
+  </body>
+  <script type="module" src="./scripts.js"></script>
+</html>
